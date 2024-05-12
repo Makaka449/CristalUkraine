@@ -2,6 +2,11 @@
   padding-top: 64px;
 }
 
+.icon-arrow-down{
+  background-color: #242527;
+  border-radius: 100%;
+}
+
 @media screen and (min-width: 1440px) {
   .about-us {
     padding-top: 96px;
