@@ -1,0 +1,28 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('modern-normalize/modern-normalize.css');
+@import url('accordion-js/dist/accordion.min.css');
+@import url('swiper/css/bundle');
+
+@import url('aos/dist/aos.css');
+
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./variables.css');
+
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./about-me.css');
+@import url('./benefits.css');
+@import url('./projects.css');
+@import url('./faq.css');
+@import url('./covers.css');
+@import url('./reviews.css');
+@import url('./footer.css');
+@import url('./scroll-to-top.css');
+@import url('./mob-modal.css');
+@import url('./theme-picker.css');

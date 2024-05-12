@@ -1,0 +1,66 @@
+<header class="header" data-aos="fade-down">
+  <div class="header-section container">
+    <nav class="header-nav">
+      <a class="main-logo link" href="./index.html">
+        <div class="logo_box">
+          <picture>
+            <source
+              srcset="./images/logo_1x.png 1x, ./images/logo_2x.png 2x"
+              media="(max-width: 767px)"
+            />
+            <source
+              srcset="./images/logo_1x.webp 1x, ./images/logo_2x.webp 2x"
+              media="(min-width: 768px)"
+            />
+            <img
+              src="./images/logo_1x.png"
+              loading="lazy"
+              alt="logo"
+              class="logo_image"
+            />
+          </picture>
+        </div>
+      </a>
+    </nav>
+
+    <div class="menu-box-list">
+      <div class="menu-tab-div">
+        <button class="menu-tab">Menu</button>
+      </div>
+
+      <div class="menu is-hidden">
+        <ul class="menu-list">
+          <li class="menu-list-item">
+            <a class="menu-link-text" href="#about">About me</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link-text" href="#benefits">Benefits</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link-text" href="#projects">Projects</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link-text" href="#faq">FAQ</a>
+          </li>
+        </ul>
+        <div class="theme-picker">
+          <load ="partials/theme-picker.html" />
+        </div>
+      </div>
+    </div>
+
+    <a href="#work-together" class="order-btn-tab">Order the project</a>
+    <div class="btn-box">
+      <button
+        class="menu-mob-btn"
+        aria-label="menu burger button"
+        data-menu-open
+        type="button"
+      >
+        <svg class="icon_burger">
+          <use href="./images/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
