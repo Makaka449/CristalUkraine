@@ -1,6 +1,6 @@
 .hero-section {
   padding-bottom: 32px;
-  
+  background: linear-gradient(to bottom, #0000FF, #FFFF00);
   background-repeat: no-repeat;
   /* background-size: cover; */
   min-width: 320px;
