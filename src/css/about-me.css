@@ -2,6 +2,10 @@
   padding-top: 64px;
 }
 
+.accordion-content{
+  color: #000;
+}
+
 .icon-arrow-down{
   background-color: #242527;
   border-radius: 100%;
