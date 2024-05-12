@@ -7,4 +7,4 @@ import './js/mob-modal';
 import './js/projects';
 import './js/reviews';
 import './js/scroll-to-top';
-import './js/theme-picker';
+

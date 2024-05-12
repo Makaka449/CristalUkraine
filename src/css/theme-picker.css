@@ -1,10 +1,20 @@
+.mob-container{
+
+  background-color: darkgray;
+}
+
+
+.theme-picker-form{
+  background-color: darkgrey;
+}
+
 .theme-picker-fieldset {
   padding: 8px;
   display: flex;
   align-items: center;
   border: none;
   gap: 5px;
-  background-color: var(--black);
+  
   border-radius: 50px;
 }
 
@@ -19,32 +29,4 @@
   cursor: pointer;
 
   transition: all 250ms ease-in-out;
-}
-
-.theme-picker-input:checked {
-  background-color: var(--accent);
-}
-
-.theme-picker-input[value='red'] {
-  border-color: var(--red);
-}
-
-.theme-picker-input[value='green'] {
-  border-color: var(--green);
-}
-
-.theme-picker-input[value='blue'] {
-  border-color: var(--blue);
-}
-
-.theme-picker-input[value='dark-orange'] {
-  border-color: var(--dark-orange);
-}
-
-.theme-picker-input[value='dark-green'] {
-  border-color: var(--dark-green);
-}
-
-.theme-picker-input[value='orange'] {
-  border-color: var(--orange);
 }

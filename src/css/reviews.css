@@ -1,5 +1,10 @@
 .section {
   background: #1c1d20;
+  
+}
+
+.reviews{
+  display: none;
 }
 
 .avatar {

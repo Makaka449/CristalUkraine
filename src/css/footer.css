@@ -1,9 +1,10 @@
 .footer {
-  padding-top: 80px;
+ 
   padding-left: 196px;
   padding-bottom: 216px;
   padding-right: 196px;
   display: flex;
+  display: none;
   flex-direction: column;
   background-image: url(../images/footer_glass_effect_mobile.png);
   background-repeat: no-repeat;
@@ -159,12 +160,11 @@ input:focus-within {
 @media screen and (min-width: 320px) {
   .footer {
     margin: 0;
-    padding-top: 44px;
     padding-left: 0;
     padding-bottom: 66px;
     padding-right: 0;
     max-width: auto;
-
+    display: none;
     background-size: 87px;
   }
 
@@ -231,7 +231,6 @@ input:focus-within {
 @media screen and (min-width: 768px) {
   .footer {
     margin: 0;
-    padding-top: 60px;
     padding-left: 0;
     padding-bottom: 110px;
     padding-right: 0;
@@ -240,6 +239,7 @@ input:focus-within {
     background-position: right;
     background-size: 230px;
     background-repeat: no-repeat;
+    display: none;
   }
 
   .h2Span {
@@ -309,7 +309,7 @@ input:focus-within {
 
 @media screen and (min-width: 1440px) {
   .footer {
-    padding-top: 80px;
+    
     padding-left: 196px;
     padding-bottom: 216px;
     padding-right: 196px;
@@ -320,6 +320,7 @@ input:focus-within {
     background-position: right;
     background-size: 420px;
     background-repeat: no-repeat;
+    display: none;
   }
 
   .footer-container {
